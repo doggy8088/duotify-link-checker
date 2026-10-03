@@ -4,6 +4,7 @@ await mkdir("public/icons", { recursive: true });
 for (const size of [16, 32, 48, 128]) {
   await sharp("docs/assets/icon-source.png")
     .resize(size, size)
+    .ensureAlpha()
     .png()
     .toFile(`public/icons/icon-${size}.png`);
 }

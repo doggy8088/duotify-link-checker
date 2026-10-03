@@ -46,7 +46,7 @@ Support and source code: https://github.com/doggy8088/duotify-link-checker
 
 Screenshots show the real extension running against the repository's deterministic local test site. No third-party user data appears. The imagegen source and prompt are documented in [docs/assets.md](docs/assets.md).
 
-2026-10-04 圖示更新：採用四個 imagegen 方向中的第 4 版，使用深藍底與亮綠色鏈結勾號。16、32、48、128 像素圖示與 440×280 宣傳圖已同步更新。發布此變更時需上傳新版商店圖示及宣傳圖；現有報表截圖不含舊圖示，無需因本次變更重拍。含工具列或彈出視窗舊圖示的其他截圖應重新擷取。[四版比較與提示詞](docs/assets.md)。
+2026-10-04 圖示更新：第二輪分別探索黑白字母、復古像素、金屬立體與粗筆觸四種風格，正式採用第 1 版黑白 D 字母標誌，取代第一輪深藍底、亮綠色鏈結勾號。16、32、48、128 像素圖示與黑白 440×280 宣傳圖已同步更新。發布此變更時需上傳新版商店圖示及宣傳圖；現有報表截圖不含舊圖示，無需因本次變更重拍。含工具列或彈出視窗舊圖示的其他截圖應重新擷取。[四種風格與提示詞](docs/assets.md)。
 
 ## Permissions Justification
 
@@ -107,7 +107,7 @@ User-triggered CSV export writes a local file. The user controls later sharing a
 
 | Version | Date       | Changes                                                                        | Status                                           |
 | ------- | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------ |
-| 未發布  | 2026-10-04 | 更換為深藍底、亮綠色鏈結勾號，更新全部圖示尺寸與商店宣傳圖                     | 素材已更新；本次變更尚未送審                     |
+| 未發布  | 2026-10-04 | 探索四種不同風格並採用黑白 D 字母標誌，更新全部圖示尺寸與黑白宣傳圖            | 素材已更新；本次變更尚未送審                     |
 | 1.0.0   | 2026-10-04 | Initial Manifest V3 migration, reports, cancellation, CSV and automated checks | Prepared; store submission pending account setup |
 
 ## Review Notes
