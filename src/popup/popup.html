@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Duotify Link Checker</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon-48.png" width="40" height="40" alt="" />
+      <div>
+        <h1>Duotify Link Checker</h1>
+        <p>A quick check. A clearer page.</p>
+      </div>
+    </header>
+    <main>
+      <p class="intro">
+        Check visible links, images, CSS images, video and audio on this page.
+      </p>
+      <button id="all" class="primary" disabled>
+        Check all resources <span>→</span>
+      </button>
+      <button id="external" disabled>
+        Check external resources <span>↗</span>
+      </button>
+      <div class="secondary">
+        <button id="show" disabled>Show report</button
+        ><button id="clear" disabled>Clear marks</button
+        ><button id="cancel" hidden>Cancel check</button>
+      </div>
+      <p id="status" role="status">Connecting to this page…</p>
+    </main>
+    <footer>
+      Checks run only when you start them.<br />Requests do not include login
+      cookies.
+    </footer>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+[data-duotify-link-check-type] {
+  --dlc-offset: 2px;
+}
+[data-duotify-link-check-type="link"] {
+  --dlc-offset: 7px;
+}
+[data-duotify-link-check-type="image"] {
+  --dlc-offset: 1px;
+}
+[data-duotify-link-check-status="valid"] {
+  outline: 3px solid #15803d !important;
+  outline-offset: var(--dlc-offset) !important;
+}
+[data-duotify-link-check-status="invalid"] {
+  outline: 3px solid #b91c1c !important;
+  outline-offset: var(--dlc-offset) !important;
+}
+[data-duotify-link-check-status="skipped"] {
+  outline: 3px solid #b45309 !important;
+  outline-offset: var(--dlc-offset) !important;
+}
+[data-duotify-link-check-status="checking"] {
+  outline: 3px dashed #1d4ed8 !important;
+  outline-offset: var(--dlc-offset) !important;
+}

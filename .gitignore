@@ -1,0 +1,12 @@
+node_modules/
+dist/
+artifacts/
+coverage/
+test-results/
+playwright-report/
+.DS_Store
+.env*
+*.pem
+*.crx
+.chrome-profile/
+
