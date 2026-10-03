@@ -9,7 +9,7 @@
 
 A Chrome extension that checks visible links and media, highlights broken resources, and gives you a filterable report directly on the page.
 
-由 [Will 保哥](https://blog.miniasp.com/) 的 [LinkChecker.user.js](https://github.com/doggy8088/TampermonkeyUserscripts/blob/main/src/LinkChecker.user.js) 改寫為 Manifest V3 擴充功能。不需要 Tampermonkey。
+👉 [Install from Chrome Web Store](https://chromewebstore.google.com/detail/gnljkppoadbieiadmhfkpembngdkbmjb)
 
 ![檢查報表](docs/assets/screenshot-report.png)
 
@@ -26,7 +26,9 @@ A Chrome extension that checks visible links and media, highlights broken resour
 
 ## 安裝與使用
 
-目前可從 [GitHub Releases](https://github.com/doggy8088/duotify-link-checker/releases) 下載 ZIP，解壓後前往 `chrome://extensions`，啟用「開發人員模式」，按「載入未封裝項目」，選擇含 `manifest.json` 的資料夾。商店版本仍需完成首次上架設定與 Google 審核。
+可直接從 [Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/gnljkppoadbieiadmhfkpembngdkbmjb) 安裝。
+
+也可從 [GitHub Releases](https://github.com/doggy8088/duotify-link-checker/releases) 下載 ZIP，解壓後前往 `chrome://extensions`，啟用「開發人員模式」，按「載入未封裝項目」，選擇含 `manifest.json` 的資料夾。
 
 開啟一般 HTTP/HTTPS 網頁，點選工具列圖示，再選 **Check all resources** 或 **Check external resources**。檢查不會自動執行。報表中的 Total / Valid / Invalid / Skipped / Checked 可篩選結果；Close 或 Escape 只關閉報表，Show report 可重新開啟；Cancel 會停止工作。完成後以 Clear marks 清除報表與框線。
 
