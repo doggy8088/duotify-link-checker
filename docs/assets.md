@@ -18,8 +18,6 @@ Text: no text or letters.
 Constraints: no mockup, no shadows, no gradients, no border, no watermark, no extra objects; actual alpha transparency.
 ```
 
-## 截圖
-
 ## 宣傳圖
 
 依[官方圖片規格](https://developer.chrome.com/docs/webstore/images)，提供必需的 440×280 小型宣傳圖：`assets/promo-440x280.png`（RGB，無 alpha）。原始檔為 `assets/promo-source.png`，同樣使用內建 imagegen，以已生成圖示為參考；`npm run icons` 可由原圖重建輸出尺寸。
