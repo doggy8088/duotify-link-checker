@@ -2,6 +2,8 @@
 
 2026-10-04 使用內建 imagegen 工具重新製作四種不同風格，未使用 CLI/API fallback。[第二輪設計記錄](assets/icon-redesign-2/README.md)與[完整提示詞](assets/icon-redesign-2/prompts.md)保存在專案內。
 
+[第三輪四個候選方向](assets/icon-redesign-3/README.md)提供幾何拼接、折紙鏈結、焦點掃描與玻璃鏈結，供使用者選擇，尚未套用到正式素材。[比較圖](assets/icon-redesign-3/comparison.png)與[提示詞](assets/icon-redesign-3/prompts.md)一併保存。
+
 **正式圖示採用第二輪第 1 版：黑白 D 字母標誌。** D 對應 Duotify 名稱，字形中的勾號表達檢查；粗輪廓在 16 像素下仍能辨認。選擇依據為淺色與深色背景上的實際縮小比較，未進行使用者辨識率測試。
 
 <!-- prettier-ignore -->

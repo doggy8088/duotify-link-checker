@@ -33,9 +33,25 @@ const packs = {
       "04 / 粗筆觸鏈結勾號",
     ],
   },
+  3: {
+    directory: "docs/assets/icon-redesign-3",
+    title: "Duotify Link Checker：第三輪候選設計",
+    variants: [
+      "01-modular-link",
+      "02-origami-link",
+      "03-focus-scan",
+      "04-glass-link",
+    ],
+    labels: [
+      "01 / 幾何拼接",
+      "02 / 折紙鏈結",
+      "03 / 焦點掃描",
+      "04 / 玻璃鏈結",
+    ],
+  },
 };
 const pack = packs[process.argv[2] ?? "1"];
-if (!pack) throw new Error("用法：node scripts/icon-preview.mjs [1|2]");
+if (!pack) throw new Error("用法：node scripts/icon-preview.mjs [1|2|3]");
 const { directory, title, variants, labels } = pack;
 const width = 1120;
 const height = 710;
