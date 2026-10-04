@@ -27,7 +27,7 @@ const packs = {
       "04-brush-link",
     ],
     labels: [
-      "01 / 黑白字母標誌，已採用",
+      "01 / 黑白字母標誌，曾採用",
       "02 / 復古像素檢查鏡",
       "03 / 金屬立體鏈結",
       "04 / 粗筆觸鏈結勾號",
@@ -35,7 +35,7 @@ const packs = {
   },
   3: {
     directory: "docs/assets/icon-redesign-3",
-    title: "Duotify Link Checker：第三輪候選設計",
+    title: "Duotify Link Checker：第三輪設計，第 3 版已採用",
     variants: [
       "01-modular-link",
       "02-origami-link",
@@ -45,7 +45,7 @@ const packs = {
     labels: [
       "01 / 幾何拼接",
       "02 / 折紙鏈結",
-      "03 / 焦點掃描",
+      "03 / 焦點掃描，已採用",
       "04 / 玻璃鏈結",
     ],
   },
